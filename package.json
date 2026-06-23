@@ -1,0 +1,10 @@
+{
+  "name": "memory-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "test": "node test/run-tests.mjs && python3.11 test/test_python_tracer.py"
+  }
+}
